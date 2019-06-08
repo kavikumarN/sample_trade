@@ -3,7 +3,7 @@ let cors = require('cors');
 
 const app = express();
 
-var server = app.listen(process.env.PORT || 5000, listen);
+var server = app.listen(process.env.PORT || *, listen);
 var io = require('socket.io')(server);
 
 
