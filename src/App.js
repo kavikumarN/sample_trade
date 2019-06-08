@@ -45,7 +45,7 @@ class App extends React.Component {
     var that = this;
      var symbols = ['EUR/USD','XAU/USD','GBP/USD'];
     
-     socket = io.connect('http://localhost:5000');
+     socket = io.connect('https://trade-kk.herokuapp.com:5000');
 
      socket.emit('join', symbols);
 
